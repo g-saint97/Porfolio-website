@@ -35,7 +35,7 @@ export default function Home() {
                   onClick={() => setDarkMode(!darkMode)}
                   className=" cursor-pointer text-2xl"
                 />
-                <li><a className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 rounded ml-8" href="#">Resume</a></li>
+                <li><a className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 rounded ml-8" href="George.Saint.Hilaire.Resume.docx">Resume</a></li>
               </ul>
             </nav>
           </div>
@@ -52,7 +52,7 @@ export default function Home() {
                       needs. Join me down below and let's get cracking!
                     </p>
                     <div className="mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-auto h-auto relative overflow-hidden mt-20 md:h-96 md:w-96">
-                      <Image src={georgedev} alt=''objectFit="cover" />
+                      <Image src={georgedev} alt='' />
                     </div>
                     <div className="text-5xl pt-12 flex justify-center gap-16 py-3 text-black-600 dark:text-gray-400">
                       <AiFillInstagram />
