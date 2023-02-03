@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
+import { useState } from "react";
 import {AiFillGithub, AiFillLinkedin, AiFillInstagram} from 'react-icons/ai';
 import Image from 'next/image';
 import georgedev from '../public/favicon.png';
@@ -14,6 +15,8 @@ import web5 from '../public/web5.png'
 import web6 from '../public/web6.png'
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(false); 
+
   return (
     <>
       <Head>
@@ -28,39 +31,38 @@ export default function Home() {
             <nav className='py-10 flex justify-between '>
               <h1 className='text-xl font-burtons'>George Saint Hilaire SWE</h1>
               <ul className='flex items-center'>
-                <li><BsFillMoonStarsFill className='cursor-pointer text-2xl '/></li>
+              <BsFillMoonStarsFill
+                  onClick={() => setDarkMode(!darkMode)}
+                  className=" cursor-pointer text-2xl"
+                />
                 <li><a className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 rounded ml-8" href="#">Resume</a></li>
               </ul>
             </nav>
           </div>
-          <div className="flex items-center bg-gradient-to-t from-blue-500 to-teal-500 rounded-t-2xl p-5 ">
-              <div className="text-center p-10 ">
-                <h2 className="text-5xl py-2 text-purple-600 ">George Saint Hilaire</h2>
-                <h3 className="test-2xl py-2">Software Engineer | Web developer and Designer</h3>
-                <p className="test-md py-3 columns-auto text-gray-800">
-                  Student of software engineering looking to get a job.
-                  this is just an example.
-                  I will think of something to write her later.
-                </p>
-              </div>
-             
-                <div className=" mx-auto bg-gradient-to-b from-purple-500 rounded-full w-80 height-20 ">
-                  <Image
-                  src={georgedev} 
-                  alt="george dev"
-                  width={800}
-                  height={500}
-                  />
-                </div>
-            </div> 
-            <div className="flex drop-shadow-xl bg-blue-500 justify-center text-3xl rounded-b-2xl pb-2">
-              <div className='flex gap-x-14 m-2 '>
-                <AiFillGithub />
-                <AiFillLinkedin/>
-                <AiFillInstagram />
-              </div>
+          <div className=" bg-gray-200 shadow-md rounded-2xl p-5 ">
+                  <div className="text-center p-10 py-10">
+                    <h2 className="text-5xl py-2 text-purple-600 font-medium dark:text-teal-400 md:text-6xl">
+                      George Saint Hilaire
+                    </h2>
+                    <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+                      Software Engineer 
+                    </h3>
+                    <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+                      Freelancer providing services for programming and design content
+                      needs. Join me down below and let's get cracking!
+                    </p>
+                    <div className="mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+                      <Image src={georgedev} alt='' />
+                    </div>
+                    <div className="text-5xl pt-12 flex justify-center gap-16 py-3 text-black-600 dark:text-gray-400">
+                      <AiFillInstagram />
+                      <AiFillLinkedin />
+                      <AiFillGithub />
+                    </div>
+                  </div>
             </div>
         </section>
+        
         <section>
           <div className='text-center py-12'>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
