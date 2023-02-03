@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <main className="bg-white px-10">
         <section>
-          <div className=''>
+          <div>
             <nav className='py-10 flex justify-between '>
               <h1 className='text-xl font-burtons'>George Saint Hilaire SWE</h1>
               <ul className='flex items-center'>
@@ -51,8 +51,8 @@ export default function Home() {
                       Freelancer providing services for programming and design content
                       needs. Join me down below and let's get cracking!
                     </p>
-                    <div className="mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-                      <Image src={georgedev} alt='' />
+                    <div className="mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-auto h-auto relative overflow-hidden mt-20 md:h-96 md:w-96">
+                      <Image src={georgedev} alt=''objectFit="cover" />
                     </div>
                     <div className="text-5xl pt-12 flex justify-center gap-16 py-3 text-black-600 dark:text-gray-400">
                       <AiFillInstagram />
@@ -128,10 +128,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-10">
+        <section className="py-10 ">
           <div className='text-center py-12'>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md p-5 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
@@ -139,50 +139,50 @@ export default function Home() {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md p-5 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col p-5 gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover shadow-lg"
                 alt="images"
                 src={web1}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover shadow-lg"
                 alt="images"
                 src={web2}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover shadow-lg"
                 alt="images"
                 src={web3}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover shadow-lg"
                 alt="images"
                 src={web4}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover shadow-lg"
                 alt="images"
                 src={web5}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover shadow-lg"
                 alt="images"
                 src={web6}
               />
