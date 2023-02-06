@@ -39,7 +39,7 @@ export default function Home() {
               </ul>
             </nav>
           </div>
-          <div className=" bg-gray-200 shadow-md rounded-2xl p-5 ">
+          <div className=" bg-gray-200 shadow-xl rounded-2xl p-5 ">
                   <div className="text-center p-10 py-10">
                     <h2 className="text-5xl py-2 text-purple-600 font-medium dark:text-teal-400 md:text-6xl">
                       George Saint Hilaire
@@ -52,7 +52,7 @@ export default function Home() {
                       needs. Join me down below and let's get cracking!
                     </p>
                     <div className="mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-auto h-auto relative overflow-hidden mt-20 md:h-96 md:w-96">
-                      <Image src={georgedev} alt='' />
+                      <Image src={georgedev} alt='' className='animate-' />
                     </div>
                     <div className="text-5xl pt-12 flex justify-center gap-16 py-3 text-black-600 dark:text-gray-400">
                       <AiFillInstagram />
@@ -80,10 +80,10 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-teal-500 flex-1">
+            <div className="text-center shadow-xl p-10 rounded-xl my-10 bg-teal-500 flex-1">
               <Image src={design} alt="images"
                width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+              <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
               </h3>
               <p className="py-2">
@@ -96,7 +96,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-blue-500 flex-1">
+            <div className="text-center shadow-xl p-10 rounded-xl my-10 bg-blue-500 flex-1">
               <Image src={code}  alt="images"
               width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
@@ -112,7 +112,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-purple-500 flex-1">
+            <div className="text-center shadow-xl p-10 rounded-xl my-10 bg-purple-500 flex-1">
               <Image src={consulting} alt="images"
                width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
