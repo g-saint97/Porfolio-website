@@ -56,14 +56,14 @@ export default function Home() {
                       <Image src={georgedev} alt='' className='animate-' />
                     </div>
                     <div className="text-5xl pt-12 flex justify-center gap-16 py-3 text-black-600 dark:text-gray-400">
-                      <AiFillInstagram />
-                      <AiFillLinkedin />
-                      <AiFillGithub />
+                      <a href="https://www.instagram.com/g_saint97/"><AiFillInstagram /></a>
+                      <a href="https://www.linkedin.com/in/george-saint-hilaire-303820191/"><AiFillLinkedin /></a>
+                      <a href="https://github.com/g-saint97"><AiFillGithub /></a>
                     </div>
                   </div>
             </div>
         </section>
-        
+
         <section>
           <div className='text-center py-12'>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
