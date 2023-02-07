@@ -7,7 +7,7 @@ import georgedev from '../public/favicon.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-import web1 from '../public/web1.png';
+import web1 from '../public/alexasmusicproduction.png';
 import web2 from '../public/web2.png';
 import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
@@ -34,9 +34,9 @@ export default function Home() {
               <ul className='flex items-center'>
               <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
+                  className=" cursor-pointer text-2xl dark:bg-white rounded-lg p-1"
                 />
-                <li><a className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 rounded ml-8 dark:bg-gray-700" href="George.Saint.Hilaire.Resume.docx">Resume</a></li>
+                <li><a className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 rounded ml-8" href="George.Saint.Hilaire.Resume.docx">Resume</a></li>
               </ul>
             </nav>
           </div>
@@ -53,7 +53,7 @@ export default function Home() {
                       needs. Join me down below and let's get cracking!
                     </p>
                     <div className="mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-auto h-auto relative overflow-hidden mt-20 md:h-96 md:w-96">
-                      <Image src={georgedev} alt='' className='animate-' />
+                      <Image src={georgedev} alt='' />
                     </div>
                     <div className="text-5xl pt-12 flex justify-center gap-16 py-3 text-black-600 dark:text-gray-400">
                       <a href="https://www.instagram.com/g_saint97/"><AiFillInstagram /></a>
@@ -147,46 +147,58 @@ export default function Home() {
           </div>
           <div className="flex flex-col p-5 gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover shadow-lg"
+             <a href="https://www.alexasmusicproduction.com/"> 
+             <Image
+                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
                 alt="images"
                 src={web1}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover shadow-lg"
+              <a href="#">
+                <Image
+                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
                 alt="images"
                 src={web2}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="#">
               <Image
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
                 alt="images"
                 src={web3}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="#">
               <Image
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
                 alt="images"
                 src={web4}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="#">
               <Image
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
                 alt="images"
                 src={web5}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="#">
               <Image
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
                 alt="images"
                 src={web6}
               />
+              </a>
             </div>
           </div>
         </section>
