@@ -4,9 +4,9 @@ import { useState } from "react";
 import {AiFillGithub, AiFillLinkedin, AiFillInstagram} from 'react-icons/ai';
 import Image from 'next/image';
 import georgedev from '../public/favicon.png';
-import design from '../public/design.png';
-import code from '../public/code.png';
-import consulting from '../public/consulting.png';
+import design from '../public/front-end.png';
+import code from '../public/back-end.png';
+import consulting from '../public/mobile-dev.png';
 import web1 from '../public/alexasmusicproduction.png';
 import web2 from '../public/nucampdemo.png';
 import web3 from '../public/ordering-app.png';
@@ -49,9 +49,7 @@ export default function Home() {
                       Software Engineer 
                     </h3>
                     <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                      Freelancer providing services for programming and design content
-                      needs. Join me down below and let's get cracking!
-                    </p>
+                    Hi! My name is George, I’m a junior software engineer based in NYC. Check out my portfolio below!                     </p>
                     <div className="mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-auto h-auto relative overflow-hidden mt-20 md:h-96 md:w-96">
                       <Image src={georgedev} alt='' />
                     </div>
@@ -66,18 +64,15 @@ export default function Home() {
 
         <section>
           <div className='text-center py-12'>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
+            As is the case with so many people out there, the beginning of the pandemic and the shut down of the world opened up a unique opportunity for me to change careers. Stuck at home, I began to make a shift from a career as a NYC buildings employee in business school, to a software engineer.
             </p>
-            <p className="text-lg  py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+            <p className="text-lg  py-5 leading-8 text-gray-800 dark:text-gray-200">
+            Since then, I’ve read hundreds of documents, watched countless hours of YouTube tutorials, enrolled (and graduated!) from a full stack bootcamp, and began classes to resume and complete my Bachelor’s degree in Computer Science. 
+            </p>
+            <p className="text-lg  py-5 leading-8 text-gray-800 dark:text-gray-200">
+            Now, I’m ready to enter the workforce! See below for examples of my work. I’m so excited to join your team!
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -85,47 +80,45 @@ export default function Home() {
               <Image src={design} alt="images"
                width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Beautiful Designs
+                Frond End
               </h3>
               <p className="py-2 dark:text-white">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                
               </p>
-              <h4 className="py-4 font-bold text-black-600 dark:text-white">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">Photoshop</p>
-              <p className="text-gray-800 py-1 dark:text-white">Illustrator</p>
-              <p className="text-gray-800 py-1 dark:text-white">Figma</p>
-              <p className="text-gray-800 py-1 dark:text-white">Indesign</p>
+              <h4 className="py-4 font-bold text-black-600 dark:text-white">Tools I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-white">HTML</p>
+              <p className="text-gray-800 py-1 dark:text-white">CSS</p>
+              <p className="text-gray-800 py-1 dark:text-white">JavaScript</p>
+              <p className="text-gray-800 py-1 dark:text-white">Bootstrap</p>
+              <p className="text-gray-800 py-1 dark:text-white">React</p>
+              <p className="text-gray-800 py-1 dark:text-white">Next</p>
+              <p className="text-gray-800 py-1 dark:text-white">TailWind</p>
             </div>
             <div className="text-center shadow-xl p-10 rounded-xl my-10 bg-blue-500 dark:bg-gray-700 flex-1">
               <Image src={code}  alt="images"
               width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Code your dream project
+                Back-End
               </h3>
               <p className="py-2 dark:text-white">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+          
               </p>
-              <h4 className="py-4 font-bold text-black-600 dark:text-white">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">Photoshop</p>
-              <p className="text-gray-800 py-1 dark:text-white">Illustrator</p>
-              <p className="text-gray-800 py-1 dark:text-white">Figma</p>
-              <p className="text-gray-800 py-1 dark:text-white">Indesign</p>
+              <h4 className="py-4 font-bold text-black-600 dark:text-white">Tools I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-white">Node Js</p>
+              <p className="text-gray-800 py-1 dark:text-white">Express</p>
+              <p className="text-gray-800 py-1 dark:text-white">MongoDB</p>
+              <p className="text-gray-800 py-1 dark:text-white">MySQL</p>
             </div>
             <div className="text-center shadow-xl p-10 rounded-xl my-10 bg-purple-500 dark:bg-gray-700 flex-1">
               <Image src={consulting} alt="images"
-               width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Consulting</h3>
+               width={60} height={90} className="align-content: center"/>
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Mobile</h3>
               <p className="py-2 dark:text-white">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+                
               </p>
-              <h4 className="py-4 font-bold text-black-600 dark:text-white">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">Photoshop</p>
-              <p className="text-gray-800 py-1 dark:text-white">Illustrator</p>
-              <p className="text-gray-800 py-1 dark:text-white">Figma</p>
-              <p className="text-gray-800 py-1 dark:text-white">Indesign</p>
+              <h4 className="py-4 font-bold text-black-600 dark:text-white">Tools I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-white">React Native</p>
+              <p className="text-gray-800 py-1 dark:text-white">Android Studio</p>
             </div>
           </div>
         </section>
