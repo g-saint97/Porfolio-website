@@ -36,7 +36,7 @@ export default function Home() {
                   onClick={() => setDarkMode(!darkMode)}
                   className=" cursor-pointer text-2xl dark:bg-white rounded-lg p-1"
                 />
-                <li><a className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 rounded ml-8" href="George.Saint.Hilaire.Resume.docx">Resume</a></li>
+                <li><a className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 rounded ml-8" href="George.Saint.Hilaire.Resume_Dec2022 (1).pdf">Resume</a></li>
               </ul>
             </nav>
           </div>
