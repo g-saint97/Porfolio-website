@@ -126,17 +126,14 @@ export default function Home() {
           <div className='text-center py-12'>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md p-5 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              Since the beginning of my journey as a freelance, designer and
+              developer, I've done remote volunteer work. One of them for an <span className="text-teal-500">Animal rescue </span>
+              and collaborated with alanding site for customer to see what they do.
             </p>
             <p className="text-md p-5 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              Here I showcase a wide range of services, and personal projects.
             </p>
+            <p className='text-lx font-bold underline underline-offset-1'>Check out my project</p>
           </div>
           <div className="flex flex-col p-5 gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
