@@ -4,15 +4,21 @@ import { useState } from "react";
 import {AiFillGithub, AiFillLinkedin, AiFillInstagram} from 'react-icons/ai';
 import Image from 'next/image';
 import georgedev from '../public/favicon.png';
-import design from '../public/front-end.png';
-import code from '../public/back-end.png';
-import consulting from '../public/mobile-dev.png';
 import web1 from '../public/alexasmusicproduction.png';
 import web2 from '../public/nucampdemo.png';
 import web3 from '../public/ordering-app.png';
 import web4 from '../public/to-do-list.png';
-import web5 from '../public/web5.png';
-import web6 from '../public/web6.png';
+import web5 from '../public/guess-my-number.png';
+import web6 from '../public/modals.png';
+import web7 from '../public/pig-game.png';
+import css from '../public/css.png'
+import github from '../public/github.png'
+import html from '../public/html.png'
+import javascript from '../public/javascript.png'
+import next from '../public/nextjs.png'
+import node from '../public/node.png'
+import react from '../public/react.png'
+import tailwind from '../public/tailwind.png'
 
 
 export default function Home() {
@@ -64,7 +70,7 @@ export default function Home() {
 
         <section>
           <div className='text-center py-12'>
-            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
+            <h3 className="text-4xl py-1 dark:text-white underline underline-offset-1">About Me</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
             As is the case with so many people out there, the beginning of the pandemic and the shut down of the world opened up a unique opportunity for me to change careers. Stuck at home, I began to make a shift from a career as a NYC buildings employee in business school, to a software engineer.
             </p>
@@ -75,56 +81,75 @@ export default function Home() {
             Now, I’m ready to enter the workforce! See below for examples of my work. I’m so excited to join your team!
             </p>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-xl p-10 rounded-xl my-10 bg-teal-500 dark:bg-gray-700 flex-1">
-              <Image src={design} alt="images"
-               width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Frond End
-              </h3>
-              <p className="py-2 dark:text-white">
-                
-              </p>
-              <h4 className="py-4 font-bold text-black-600 dark:text-white">Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">HTML</p>
-              <p className="text-gray-800 py-1 dark:text-white">CSS</p>
-              <p className="text-gray-800 py-1 dark:text-white">JavaScript</p>
-              <p className="text-gray-800 py-1 dark:text-white">Bootstrap</p>
-              <p className="text-gray-800 py-1 dark:text-white">React</p>
-              <p className="text-gray-800 py-1 dark:text-white">Next</p>
-              <p className="text-gray-800 py-1 dark:text-white">TailWind</p>
+          <h3 className="text-center text-4xl py-10 dark:text-white underline underline-offset-1 ">My experience</h3>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-12 - sm:px-0 ">
+            <div className="basis-1/2 flex- ">
+             <Image
+                className="rounded-md duration-200  hover:scale-105 m-5" width="150"
+                alt="images"
+                src={css}
+              />
             </div>
-            <div className="text-center shadow-xl p-10 rounded-xl my-10 bg-blue-500 dark:bg-gray-700 flex-1">
-              <Image src={code}  alt="images"
-              width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Back-End
-              </h3>
-              <p className="py-2 dark:text-white">
-          
-              </p>
-              <h4 className="py-4 font-bold text-black-600 dark:text-white">Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">Node Js</p>
-              <p className="text-gray-800 py-1 dark:text-white">Express</p>
-              <p className="text-gray-800 py-1 dark:text-white">MongoDB</p>
-              <p className="text-gray-800 py-1 dark:text-white">MySQL</p>
+            <div className="basis-1/2 flex-1">
+              
+                <Image
+                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                alt="images"
+                src={html}
+              />
             </div>
-            <div className="text-center shadow-xl p-10 rounded-xl my-10 bg-purple-500 dark:bg-gray-700 flex-1">
-              <Image src={consulting} alt="images"
-               width={60} height={90} className="align-content: center"/>
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Mobile</h3>
-              <p className="py-2 dark:text-white">
-                
-              </p>
-              <h4 className="py-4 font-bold text-black-600 dark:text-white">Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">React Native</p>
-              <p className="text-gray-800 py-1 dark:text-white">Android Studio</p>
+            <div className="basis-1/2 flex-1">
+              
+              <Image
+                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                alt="images"
+                src={javascript}
+              />
             </div>
+            <div className="basis-1/2 flex-1">
+              
+              <Image
+                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                alt="images"
+                src={react}
+              />
+            </div>
+            <div className="basis-1/2 flex-1">
+
+              <Image
+                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                alt="images"
+                src={github}
+              />
+            </div>
+            <div className="basis-1/2 flex-1">
+              <Image
+                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                alt="images"
+                src={tailwind}
+              />
+            </div>
+            <div className="basis-1/2 flex-1">
+              <Image
+                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                alt="images"
+                src={node}
+              />
+            </div>
+            <div className="basis-1/2 flex-1">
+              <Image
+                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                alt="images"
+                src={next}
+              />
+            </div>
+        
           </div>
         </section>
+            
         <section className="py-10 ">
           <div className='text-center py-12'>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-4xl py-1 dark:text-white underline underline-offset-1">Portofolio</h3>
             <p className="text-md p-5 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance, designer and
               developer, I've done remote volunteer work. One of them for an <span className="text-teal-500">Animal rescue </span>
@@ -139,7 +164,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1 ">
              <a href="https://www.alexasmusicproduction.com/"> 
              <Image
-                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
+                className="rounded-lg duration-200 shadow-lg hover:scale-105"
                 alt="images"
                 src={web1}
               />
@@ -148,7 +173,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <a href="https://nucamp-website-demo.vercel.app/">
                 <Image
-                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
+                className="rounded-lg duration-200 shadow-lg hover:scale-105"
                 alt="images"
                 src={web2}
               />
@@ -157,7 +182,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <a href="https://drink-ordering-app.vercel.app/">
               <Image
-                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
+                className="rounded-lg duration-200 shadow-lg hover:scale-105"
                 alt="images"
                 src={web3}
               />
@@ -166,27 +191,36 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <a href="https://task-tracker-project-react.vercel.app/">
               <Image
-                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
+                className="rounded-lg duration-200 shadow-lg hover:scale-105"
                 alt="images"
                 src={web4}
               />
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="#">
+              <a href="https://guess-my-number-game-alpha.vercel.app/">
               <Image
-                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
+                className="rounded-lg duration-200 shadow-lg hover:scale-105"
                 alt="images"
                 src={web5}
               />
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="#">
+              <a href="https://modal-ecru.vercel.app/">
               <Image
-                className="rounded-lg object-cover shadow-lg hover:animate-bounce"
+                className="rounded-lg duration-200 shadow-lg hover:scale-105"
                 alt="images"
                 src={web6}
+              />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://pig-game-silk-eta.vercel.app/">
+              <Image
+                className="rounded-lg duration-200 shadow-lg hover:scale-105"
+                alt="images"
+                src={web7}
               />
               </a>
             </div>
