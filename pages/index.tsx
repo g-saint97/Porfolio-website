@@ -82,68 +82,69 @@ export default function Home() {
             </p>
           </div>
           <h3 className="text-center text-4xl py-10 dark:text-white underline underline-offset-1 ">My experience</h3>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-12 - sm:px-0 ">
-            <div className="basis-1/2 flex- ">
-             <Image
-                className="rounded-md duration-200  hover:scale-105 m-5" width="150"
-                alt="images"
-                src={css}
-              />
-            </div>
-            <div className="basis-1/2 flex-1">
-              
+          <div className='flex justify-center'>
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-12 sm:px-0 ">
+                <div className="basis-1/2 flex-1 p-12">
                 <Image
-                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
-                alt="images"
-                src={html}
-              />
-            </div>
-            <div className="basis-1/2 flex-1">
-              
-              <Image
-                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
-                alt="images"
-                src={javascript}
-              />
-            </div>
-            <div className="basis-1/2 flex-1">
-              
-              <Image
-                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
-                alt="images"
-                src={react}
-              />
-            </div>
-            <div className="basis-1/2 flex-1">
+                    className="rounded-md duration-200  hover:scale-105 m-5" width="150"
+                    alt="images"
+                    src={css}
+                  />
+                </div>
+                <div className="basis-1/2 flex-1 p-12">
+                  
+                    <Image
+                    className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                    alt="images"
+                    src={html}
+                  />
+                </div>
+                <div className="basis-1/2 flex-1 p-12">
+                  
+                  <Image
+                    className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                    alt="images"
+                    src={javascript}
+                  />
+                </div>
+                <div className="basis-1/2 flex-1 p-12">
+                  
+                  <Image
+                    className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                    alt="images"
+                    src={react}
+                  />
+                </div>
+                <div className="basis-1/2 flex-1 p-12">
 
-              <Image
-                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
-                alt="images"
-                src={github}
-              />
+                  <Image
+                    className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                    alt="images"
+                    src={github}
+                  />
+                </div>
+                <div className="basis-1/2 flex-1 p-12">
+                  <Image
+                    className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                    alt="images"
+                    src={tailwind}
+                  />
+                </div>
+                <div className="basis-1/2 flex-1 p-12">
+                  <Image
+                    className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                    alt="images"
+                    src={node}
+                  />
+                </div>
+                <div className="basis-1/2 flex-1 p-12">
+                  <Image
+                    className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
+                    alt="images"
+                    src={next}
+                  />
+                </div>
             </div>
-            <div className="basis-1/2 flex-1">
-              <Image
-                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
-                alt="images"
-                src={tailwind}
-              />
-            </div>
-            <div className="basis-1/2 flex-1">
-              <Image
-                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
-                alt="images"
-                src={node}
-              />
-            </div>
-            <div className="basis-1/2 flex-1">
-              <Image
-                className="rounded-lg duration-200  hover:scale-105 m-5" width="150"
-                alt="images"
-                src={next}
-              />
-            </div>
-        
           </div>
         </section>
             
